@@ -9,7 +9,7 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
+/.plugins/
 # Package Files #
 *.jar
 *.war
@@ -18,8 +18,14 @@
 *.zip
 *.tar.gz
 *.rar
+.log
+.project
+/.settings/
+org.eclipse.core.resources.prefs
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 /.metadata/
+.gitignore
+/.gitignore/
