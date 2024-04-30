@@ -29,3 +29,4 @@ replay_pid*
 /.metadata/
 .gitignore
 /.gitignore/
+/bin/
