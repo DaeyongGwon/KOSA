@@ -3,7 +3,7 @@ package threadproperties_EX02;
 class MyThread extends Thread {
 	@Override
 	public void run() {
-		for (long i = 0; i < 1_000_000_000000L; i++) {
+		for (long i = 0; i < 9_860_000_000L; i++) {
 		}
 		System.out.println(getName() + " 우선순위: " + getPriority());
 	}
@@ -21,15 +21,15 @@ public class ThreadProperties_2 {
 		}
 
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(100);
 		} catch (InterruptedException e) {
 		}
 
 		// 우선순위 직접 지정
-		for (int i = 0; i < 15; i++) {
+		for (int i = 0; i < 12; i++) {
 			Thread thread = new MyThread();
 			thread.setName(i + "번째 쓰레드");
-			if (i == 14)
+			if (i == 11)
 				thread.setPriority(10);
 			thread.start();
 		}
