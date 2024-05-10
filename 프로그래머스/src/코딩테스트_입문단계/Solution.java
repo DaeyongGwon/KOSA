@@ -1,4 +1,4 @@
-package 코딩테스트;
+package 코딩테스트_입문단계;
 
 public class Solution {
 
