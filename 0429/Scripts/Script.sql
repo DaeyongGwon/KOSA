@@ -1,0 +1,24 @@
+
+
+SELECT *
+FROM EMPLOYEES
+WHERE SALARY > (SELECT SALARY FROM EMPLOYEES e
+				WHERE LAST_NAME ='Abel');
+
+
+			
+			
+			
+			
+			
+SELECT last_name, salary
+FROM EMPLOYEES e 
+WHERE SALARY > (SELECT SALARY FROM EMPLOYEES
+				WHERE LAST_NAME = 'Abel');
+				
+			
+			
+			
+			
+
+SELECT 
