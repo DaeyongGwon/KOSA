@@ -1,5 +1,3 @@
-package method;
-
 import java.util.Scanner;
 
 public class Figure_circulate {
